@@ -1,5 +1,5 @@
-s = "azcbobobegghakl"
-longest_substring = ""
+s = "zyxwvutsrqponmlkjihgfedcba"
+longest_substring = s[0]
 
 for i in xrange(len(s)):
     for j in xrange(i + 1, len(s)):
